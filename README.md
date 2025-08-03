@@ -1,2 +1,2 @@
-# PLP-Week-2
+# PLP-Week 1
 Web development HTML
