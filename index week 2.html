@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Week 2 - Enhamced HTML Elements</title>
+</head>
+<body>
+    <h2> Definition list-style</h2>
+    <dl>
+        <dt>Backend</dt>
+        <dd>A server software</dd>
+        <dt>Fonted</dt>
+    </dl>
+    <h2>Nested Listed</h2>
+    <ul>
+        <li>HTML
+            <ul type="a">
+                <li>CSS</li>
+                <li>JavaScript</li>
+            </ul>
+        </li>
+        <li>Backend
+            <ul>
+                <li>Node.js</li>
+                <li>Python</li>
+            </ul>
+        </li>
+        <h2> image</h2>
+        <img src="https://static.whatsapp.net/rsrc.php/yZ/r/JvsnINJ2CZv.svg" alt= "Whatsapp " width="300" height="200">
+        <img src="https://images.pexels.com/photos/33037724/pexels-photo-33037724.jpeg" alt="book" width="300" height="200">
+        <h2>Video</h2>
+        <video controls width="350" height="200"  source src="https://videos.pexels.com/video-files/1093662/1093662-hd_1920_1080_30fps.mp4" type = "video/mp4">Your Video</video>
+        <h2>Audio</h2>
+        <audio controls source src="https://www.boomplay.com/artists/2943271?from=artists.mp3" type = "audio/mpeg">Your browser her no audio</audio>
+        <h2>Table</h2>
+        <table border="1" cellpadding="10" cellspacing="0">
+            <thead>
+                <tr>
+                    <th>Hearder 1</th>
+                    <th>header 2</th>
+                    <th>Header 3</th>
+                </tr>
+            </thead>
+            <tbody>
+                <td>row 1</td>
+                <td>row 2</td>
+                <td>row 3</td>
+            </tbody>
+            <tr>
+                <th>First Name</th>
+                <th>Last Name</th>
+                <th>Age</th>
+            </tr>
+            <tr>
+                <td>John</td>
+                <td>Doe</td>
+                <td>30</td>
+            </tr>
+            <tr>
+                <td>Jane</td>
+                <td>Smith</td>
+                <td>25</td>
+            </tr>
+            <tr>
+                <td>Mike</td>
+                <td>Johnson</td>
+                <td>40</td>
+
+                <h2>Forms</h2>
+                <form action="location" method="how" enctype="multipart/form-data">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <br><br>
+                <label for="age">Age:</label>
+                <input type="number" id="age" name="age" min="1" max="100" required>
+                <br><br>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <br><br>
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+                <br><br>
+                <label for="date"> Date</label>
+                <input type="text" id="date" name="date" placeholder="YYYY-MM-DD">
+                <input type="submit" value="Submit">
+                <textarea id="comments" name="comments" rows="4" cols="50" placeholder="Enter your comments here..."></textarea>
+                <br><br>
+                <label for="Country"> Country</label>
+                <select name="Country" id="Country">
+                    <option value="">---Select Coutry---</option>
+                    <option value="USA">USA</option>
+                    <option value="Canada">Canada</option>
+                    <option value="UK">UK</option>
+                    <option value="Australia">Australia</option>
+                </select>
+                </form>
+</body>
+</html>
